@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+ <meta charset="UTF-8">
+ <title>Mi primera página web</title>
+ </head>
+ <body>
+ <h1>¡Hola Colombia!</h1>
+ <h2>¡Hola Colombia!</h2>
+ <h3>¡Hola Colombia!</h3>
+ <h4>¡Hola Colombia!</h4>
+ <h5>¡Hola Colombia!</h5>
+ <h6>¡Hola Colombia!</h6>
+ <p>Este es un ejemplo de una página web básica.</p>
+ <br>
+ <br>
+  <p><h3>Pasatiempos preferidos:</h3></p>
+
+<ol>
+  <li>runnig</li>
+  <li>fútbol</li>
+  <li>ciclismo</li>
+</ol>
+</br>
+<img src="dinosaur.jpg" />
+
+<p>Para más información visita:</p>
+
+<ul>
+  <li><a href="https://mediamaratonvalledeupar.com/">Website</a></li> 
+
+ </body>
+ </html>

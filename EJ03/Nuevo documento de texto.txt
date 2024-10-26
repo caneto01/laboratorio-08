@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página Simple</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+  <h1 class="titulo">Bienvenidos</h1>
+  <p class="parrafo">Este es un párrafo de ejemplo para nuestra página web.</p>
+  <img src="imagen.jpg" alt="Imagen de ejemplo" class="imagen">
+  
+  <!-- Nuevos elementos -->
+  <ul class="lista">
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+  </ul>
+  
+  <table class="tabla">
+    <tr>
+      <th>Cabezera 1</th>
+      <th>Cabezera 2</th>
+    </tr>
+    <tr>
+      <td>Celda 1</td>
+      <td>Celda 2</td>
+    </tr>
+  </table>
+  
+  <div class="caja">
+    <p>Contenido de la caja</p>
+  </div>
+</body>
+</html>
+
+
+Archivo CSS (estilos.css)
+
+
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el título */
+.titulo {
+  color: #00698f;
+  font-size: 36px;
+  text-align: center;
+}
+
+/* Estilos para el párrafo */
+.parrafo {
+  color: #666;
+  font-size: 18px;
+  text-align: justify;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Estilos para la imagen */
+.imagen {
+  width: 50%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la lista */
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista li {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilos para la tabla */
+.tabla {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabla th, .tabla td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilos para la caja */
+.caja {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
